@@ -1,0 +1,26 @@
+.courseDetails{
+  width: 100%;
+  background-image: url('../../../assets/img/bannerimg.jpg');
+  height: 600px;
+  background-position: center left;
+  background-size: cover;
+  text-align: right;
+  color: white;
+  padding: 10px 30px;
+  /*font-weight: bold;*/
+  /*font-size: 30px;*/
+}
+.aboutCourse{
+
+  /*top: 30%;*/
+  /*position: absolute;*/
+  right: 10%;
+  /*padding: 20px;*/
+}
+
+@media screen and (max-width: 600px){
+  .aboutCourse
+  {
+    width: 100%;
+  }
+}

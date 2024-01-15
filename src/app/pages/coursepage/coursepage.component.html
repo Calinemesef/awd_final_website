@@ -1,0 +1,17 @@
+<div class="container mt-5 mb-5">
+  <a routerLink="../../menu" class="btn btn-sm btn-dark mb-3">Back</a>
+  <div class="row">
+    <div class="col-lg-6 " *ngIf="courseData">
+      <div class="courseDetails">
+        <h1 class="mt-2">{{courseData[0].courseName}}</h1>
+        <p>{{courseData[0].courseDetails}}</p>
+<!--        <p>{{courseData[0].courseCredits}} credits</p>-->
+      </div>
+
+    </div>
+    <div class="col-lg-6 col-12 aboutCourse">
+      <h1>Course overview</h1>
+      <p>{{courseData[0].courseDescription}}</p>
+    </div>
+  </div>
+</div>
